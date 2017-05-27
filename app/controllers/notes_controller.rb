@@ -6,7 +6,6 @@ class NotesController < ApplicationController
   end
 
   def show
-
   end
 
   def new
@@ -24,7 +23,6 @@ class NotesController < ApplicationController
   end
 
   def edit
-
   end
 
   def update
