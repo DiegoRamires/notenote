@@ -1,1 +1,32 @@
-%h1 This is the welcome placeholder
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online notebook. Never forget an idea again.
+		%button= link_to "Sign Up", new_user_registration_path
+#testimonial
+	.wrapper
+		%p.quote "The greatest notebook application."
+		%p.name - Diego Ramires
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%h2 Notes
+				%p Activated charcoal copper mug semiotics, coloring book tote bag literally meh listicle. Mumblecore salvia la croix readymade narwhal.
+
+			.callout
+				%h2 Rocket
+				%p Viral Echo Park Intelligentsia tattooed, craft beer organic authentic polaroid tousled mlkshk church-key. Fanny pack Banksy vegan  authentic Helvetica.
+
+			.callout
+				%h2 Lightning
+				%p Hashtag fashion axe fingerstache pour-over organic. Af ethical wolf, chicharrones kitsch gluten-free palo santo put a bird on it shaman unicorn pug plaid.class_selector
+
+#bottom_cta
+	.wrapper
+		%h2 For Realz!
+		%p Create a free account and test 
+		%button= link_to "Click Here", new_user_registration_path
+
+%footer
+	%p &copy; Design by Mackenzie Child
